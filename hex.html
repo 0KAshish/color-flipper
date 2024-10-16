@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Color Flipper</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="index.html">Color Flipper</a>
+        <a href="./hex.html">Simple Hex</a>
+      </div>
+    </header>
+    <div class="container">
+      <button class="color-name-btn">
+        Background Color : <span id="color-name">#FFFFFF</span>
+      </button>
+      <div class="btn-container">
+        <button
+          class="color-name-btn click-btn"
+          id="click-me"
+          onclick="clickMe()"
+        >
+          Click Me
+        </button>
+        <button
+          class="color-name-btn click-btn"
+          id="click-me"
+          onclick="lockColor()"
+        >
+          Save
+        </button>
+      </div>
+
+      <!-- Previewed colord -->
+      <div class="color-container" id="color-box">
+        <!-- <div class="generated-color">
+          <div id="cc">#FFFFFF</div>
+          <div id="cp"></div>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="./js/hex.js"></script>
+  </body>
+</html>

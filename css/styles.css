@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100vh;
+}
+
+.header {
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 2px 2px 10px rgb(116, 113, 113);
+}
+
+.header a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
+.container {
+  margin: 50px auto;
+  width: 70%;
+  min-height: 80vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.color-name-btn {
+  border: 2px solid black;
+  padding: 10px 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 2.3rem;
+  background-color: black;
+  color: white;
+}
+
+span {
+  text-transform: capitalize;
+}
+
+.click-me-btn {
+  font-size: 1.3rem;
+  background-color: transparent;
+  border: none;
+}
+
+.click-me-btn:hover {
+  cursor: pointer;
+}
+
+.click-btn {
+  outline: 2px solid white;
+  text-shadow: 2px 2px 5px white;
+  background-color: transparent;
+  color: black;
+  text-shadow: 0 0 5px 0 white;
+}
+
+.click-btn:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 5px 0 black;
+}
+
+table,
+th,
+tr,
+td {
+  background-color: white;
+  border: 2px solid black;
+  font-size: 1.5rem;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.btn-container {
+  display: flex;
+  gap: 20px;
+}
+
+td,
+th {
+  padding: 10px 20px;
+}
+#td-bg {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.color-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.generated-color {
+  background-color: white;
+  display: flex;
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 2px 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#cc {
+  text-shadow: 0 0 8px white;
+}
+#cp {
+  border: 2px solid black;
+  border-radius: 2px;
+  width: 100px;
+  height: 20px;
+  background-color: white;
+}
