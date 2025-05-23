@@ -8,6 +8,17 @@ A simple web app that changes the background color of the page and displays the 
 
 ## 📁 Project Structure
 
+Color-Flipper/\
+│\
+├── index.html # Main simple color flipper page\
+├── /pages/\
+│ └── hex.html # Hex color flipper page\
+├── /css/\
+│ └── styles.css # Styling for the app\
+├── /js/\
+│ └── script.js # JavaScript for color switching\
+└── README.md # Project documentation
+
 ## 🚀 Features
 
 - Toggle between different background colors with a button click.
